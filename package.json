@@ -1,0 +1,28 @@
+{
+  "name": "myportfolioapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "12.16.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "moment-timezone": "^0.5.31",
+    "mongoose": "^5.9.16",
+    "nodemailer": "^6.4.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
